@@ -45,3 +45,23 @@
     width:80px;
     padding: 7px;
 }
+
+head {
+    background-color: white;
+}
+
+body {
+    background-image: url("media/mapTemplate.png");
+}
+
+#mapPath {
+    height: 250px;
+    width: 1200px;
+    position: absolute; /* Set the image to be absolutely positioned */
+    top: 400px; /* Position the image 50px from the top of its container */
+    left: 250px; /* Position the image 20px from the left of its container */
+
+    /* top: 1000px;
+    right: 200px; */
+}
+

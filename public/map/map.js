@@ -17,9 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     var map = document.getElementById('menuMap');
     map.addEventListener('click', function() {
-        window.location.href = 'index.html';
+        window.location.href = 'map.html';
     });
-
 });
 
 document.addEventListener('DOMContentLoaded', function() {

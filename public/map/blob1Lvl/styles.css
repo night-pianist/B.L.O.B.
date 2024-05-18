@@ -1,13 +1,13 @@
-.navbar {    /* display: none; Hidden by default */
+.navbar {    /* hidden by default */
     display: inline-block;
-    top: 250px; /* Initially hidden */
+    top: 250px;
     height: 75px;
     padding: 15px;
-    display: flex; /* Use flexbox for layout */
+    display: flex;
 }
 
 .menu {
-    flex-grow: 1; /* allow menu to grow and take up remaining space */
+    flex-grow: 1;
     background-color: none;
     padding: 20px; 
     font-size: 30px;
@@ -37,7 +37,7 @@
     align-items: center;
     text-align: center;
     margin-top: 0px;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 #menuIcon {
@@ -45,6 +45,40 @@
     width:80px;
     padding:0px;
     margin:0px;
-    padding:0px;
-    margin:0px;
 }
+
+body {
+    background-image: url("media/mapTemplate.png");
+}
+
+#mapPath {
+    height: 250px;
+    width: 1200px;
+    position: absolute; 
+    top: 400px;
+    left: 250px;
+}
+
+.blobs {
+    height: 250px;
+    width: 265;
+}
+
+#blob1 {
+    position: absolute;
+    top: 420px;
+    left: 10px;
+}
+
+#blob2 {
+    position: absolute;
+    top: 220px;
+    left: 435px;
+}
+
+#blob3 {
+    position: absolute;
+    top: 320px;
+    left: 935px;
+}
+

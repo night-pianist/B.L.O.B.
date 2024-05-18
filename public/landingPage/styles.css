@@ -8,9 +8,10 @@
   border-radius: 15px;
   width: 300px;
   height: 400px;
+  margin: 20px;
 }
 
-.login {
+.login, .register {
   font-size: 30px;
   text-align: center;
 }
@@ -66,6 +67,7 @@
 }
 
 .menuItem {
+  display: none;
   background-color: aliceblue; 
   display: inline-block; /* Display items as inline-block */
   width: 100px;

@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     var map = document.getElementById('menuMap');
     map.addEventListener('click', function() {
-        window.location.href = 'map.html';
+        window.location.href = 'index.html';
     });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
     var blob1Lvl = document.getElementById('blob1');
     blob1Lvl.addEventListener('click', function() {
-        window.location.href = 'blob1Lvl/blob1.html';
+        window.location.href = 'blob1.html';
     });
 });

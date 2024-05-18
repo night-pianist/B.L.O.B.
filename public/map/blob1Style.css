@@ -50,35 +50,3 @@
 body {
     background-image: url("media/mapTemplate.png");
 }
-
-#mapPath {
-    height: 250px;
-    width: 1200px;
-    position: absolute; 
-    top: 400px;
-    left: 250px;
-}
-
-.blobs {
-    height: 250px;
-    width: 265;
-}
-
-#blob1 {
-    position: absolute;
-    top: 420px;
-    left: 10px;
-}
-
-#blob2 {
-    position: absolute;
-    top: 220px;
-    left: 435px;
-}
-
-#blob3 {
-    position: absolute;
-    top: 320px;
-    left: 935px;
-}
-

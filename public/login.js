@@ -38,7 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
-            alert('Login Successful'); // Handle your success further
+            if (data.message === "Login successful!") {
+                alert('Login Successful'); // Handle your success further
+            } else {
+                alert('Invalid credentials!'); // Handle the error
+            }
         })
         .catch((error) => {
             console.error('Error:', error);

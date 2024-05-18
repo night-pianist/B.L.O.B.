@@ -1,0 +1,156 @@
+/* styles.css */
+
+/* OVERALL BODY */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: #49A7BC;
+}
+
+/* HEADER = HOME LOGO */
+header {
+    background-color: #49A7BC;
+    padding: 10px 20px;
+    text-align: left;
+    /* border-bottom: 1px solid #49A7BC; */
+}
+
+.logo-container {
+    display: inline-block;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: 100px; /* Adjust the width according to your design */
+    background-color: blanchedalmond;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+/* TITLE OF THE PAGE: BOB THE BLOB */
+main {
+    font-size: 3vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* BLOB + GIFT SHELF SPLIT */
+.left-image {
+    max-width: 30%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 5%; /* Space between image and list */
+    align-items: center;
+}
+
+.right-list {
+    max-width: 30%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-list li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* OVERLAY GIFTS OVER SHELF */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 30%; /* Adjust as needed */
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-element {
+    /* position: absolute;
+    color: white;
+    background-color: rgba(115, 52, 15, 0.5);
+    padding: 5% 31%;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+
+    top: var(--top);
+    left: var(--left);
+    white-space: nowrap; */
+
+    position: absolute;
+    color: white;
+    background-color: rgba(115, 52, 15, 0.5); /* Optional: Add a background color with transparency */
+    padding: 2vw 13vw;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Adjust as needed */
+    text-align: center;
+
+    top: var(--top);
+    left: var(--left);
+    white-space: nowrap;
+    transition: padding 0.2s ease-in-out; /* Smooth transition for padding changes */
+}
+
+
+.content {
+    padding: 5vw 10vw; /* Padding adjusts with viewport width */
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: padding 0.2s ease-in-out; /* Smooth transition for padding changes */
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 1400px){
+    .text-element {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        padding: 3vw 15vw;
+    }
+  }
+  
+  @media screen and (max-width: 960px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: 1.3vw 8vw;
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: 1vw 10.4vw;
+    }
+  }
+  
+  @media screen and (max-width: 560px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: 1vw 10vw;
+    }
+  }

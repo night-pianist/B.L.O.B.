@@ -46,49 +46,6 @@
   padding-right: 100px;
 }
 
-.navbar {
-  /* display: none; Hidden by default */
-  display: inline-block;
-  top: 250px; /* Initially hidden */
-  height: 75px;
-  padding: 15px;
-  display: flex; /* Use flexbox for layout */
-}
-
-.menu {
-  flex-grow: 1; /* allow menu to grow and take up remaining space */
-  background-color: none;
-  padding: 20px; 
-  font-size: 30px;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.menuItem {
-  display: none;
-  background-color: aliceblue; 
-  display: inline-block; /* Display items as inline-block */
-  width: 100px;
-  height: 50px;
-  border-radius: 50px; /* Adjust the value to change the curvature */
-}
-
-.menuItem a {
-  text-decoration: none;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-}
-
-#menuIcon {
-  height:70px;
-  width:70px;
-  padding: 7px;
-  padding-top: 5px;
-}
-
 /* FADE IN + MOVE TITLE */
 .curved-text {
   display: flex;
@@ -98,7 +55,7 @@
   height: 15vh;
   font-weight: bold;
   font-size: 100px;
-  padding: 0px;
+  padding: 15px;
   margin: 0px;
   font-family: 'DynaPuff';
 }

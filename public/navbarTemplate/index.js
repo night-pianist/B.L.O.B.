@@ -1,0 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the image element by its ID
+    var menuIcon = document.getElementById('menuIcon');
+    var menuItems = document.getElementsByClassName('menuItem');
+
+    // Add an event listener to the image
+    menuIcon.addEventListener('click', function() {
+        for (var i = 0; i < menuItems.length; i++) {
+            if (menuItems[i].style.visibility == "visible")
+                menuItems[i].style.visibility = "hidden";
+            else
+                menuItems[i].style.visibility = "visible";
+        }
+    });
+});

@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const dotenv = require('dotenv');
+const cors = require('cors');
 
 // Initialize dotenv to use variables from .env file
 dotenv.config();
@@ -24,8 +25,12 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 // Create an Express application
 const app = express();
 
+
+
 // Middleware to parse JSON bodies
 app.use(express.json());
+
+app.use(cors());
 
 // Register new user
 app.post('/register', async (req, res) => {

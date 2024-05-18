@@ -1,3 +1,20 @@
 .title {
   font-size: 100px;
 }
+
+nav {
+  /* display: none; Hidden by default */
+  display: inline-block;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+nav ul, li {
+  list-style-type: none;
+}
+
+#menuIcon {
+  height:70px;
+  width:70px;
+  padding: 7px;
+}

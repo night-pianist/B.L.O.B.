@@ -45,15 +45,39 @@
   padding-right: 100px;
 }
 
-nav {
+.navbar {
   /* display: none; Hidden by default */
   display: inline-block;
-  background-color: skyblue;
-  padding: 10px;
+  top: 250px; /* Initially hidden */
+  height: 75px;
+  padding: 15px;
+  display: flex; /* Use flexbox for layout */
 }
 
-nav ul, li {
-  list-style-type: none;
+.menu {
+  flex-grow: 1; /* allow menu to grow and take up remaining space */
+  background-color: none;
+  padding: 20px; 
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuItem {
+  background-color: aliceblue; 
+  display: inline-block; /* Display items as inline-block */
+  width: 100px;
+  height: 50px;
+  border-radius: 50px; /* Adjust the value to change the curvature */
+}
+
+.menuItem a {
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
 #menuIcon {
@@ -61,53 +85,6 @@ nav ul, li {
   width:70px;
   padding: 7px;
   padding-top: 5px;
-}
-
-.containerAlign{
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  border: 1px solid black;
-  border-radius: 15px;
-  width: 300px;
-  height: 400px;
-}
-
-.login {
-  font-size: 30px;
-  text-align: center;
-}
-
-.inputAlign{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inputContainer{
-  margin-bottom: 20px;
-}
-
-.loginButton{
-  margin-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.username{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 100px;
-}
-
-.password {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 100px;
 }
 
 /* FADE IN + MOVE TITLE */

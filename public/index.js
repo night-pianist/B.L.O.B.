@@ -8,4 +8,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
             navbar.classList.add('visible');
         }
     };
-  });
+});
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const menuIcon = document.getElementById('menuIcon');
+//     const navbar = document.getElementsByTagName('nav');
+
+//     menuIcon.addEventListener('click', () => {
+//         navbar.classList.toggle('show');
+//     });
+// });

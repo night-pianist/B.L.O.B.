@@ -19,7 +19,7 @@ body, html {
     padding: 2%;
     box-sizing: border-box;
   }
-  
+
   h1 {
     font-size: 3vw;
     width: 100%;
@@ -89,13 +89,35 @@ body, html {
     background-color: #45a049;
   }
 
+  .option-button-wrong {
+    width: 400px;
+    height: 80px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1vw;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Montserrat";
+  }
+
+  .option-button-wrong:hover {
+    background-color: #45a049;
+  }
+
+  .option-button-wrong:active {
+    background-color: #E91818;
+  }
+
   .button-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px; /* Space between buttons */
   }
-
+  
 
   /* Media query for smaller screens */
   @media (max-width: 768px) {

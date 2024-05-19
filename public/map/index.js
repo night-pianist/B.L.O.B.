@@ -29,6 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// go to blobs befriended
+document.addEventListener('DOMContentLoaded', function() {
+    var map = document.getElementById('menuBlobs');
+    map.addEventListener('click', function() {
+        console.log("HERHIOWERJ");
+        window.location.href = 'blobs.html';
+    });
+});
+
 // go to right of map
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById('rightBtn');

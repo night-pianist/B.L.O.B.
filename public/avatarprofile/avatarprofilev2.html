@@ -3,20 +3,29 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles_avatarprofilev2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
         <title>Your Avatar!</title>
     </head>
     <body>
 
         <header>
-            <div class="logo-container">
-                <a href="index.html">
-                    <img src="img/home_icon.png" alt="Home Logo" class="logo">
-                </a>
-            </div>
         </header>
         <main>
-            <h1 class="titlemsg">BOB'S GIFT SHELF</h1>
-            <p class="quote">"You are a gift to all who know you, whether or not they realize it."</p>
+            <div>
+                <span class="titlemsg">
+                    HI I'M BOB
+                </span> 
+            </div>
+            <div class="quote">
+                <span id="topQuote">
+                    "You are a gift to all who know you,
+                </span>
+                <span id="bottomQuote">
+                    whether or not they realize it."
+                </span>
+            </div>
         </main>
 
         <div class="container">
@@ -26,15 +35,31 @@
                     <img src="img/heart_line.png" alt="heart line" class="shelfimage">
                     <!-- <h2 class="shelfheader">"You are a gift to all who know you, whether or not they realize it."</h2> -->
                     <div class="inventory-grid">
-                        <div class="inventory-item">cool potion!</div>
-                        <div class="inventory-item"> <img src="img/blob_state_1.png" alt="item 2" class="shelfitem"> </div>
-                        <div class="inventory-item"> <img src="img/islandicon.png" alt="item 2" class="shelfitem"> </div>
-                        <div class="inventory-item"></div>
-                        <div class="inventory-item"></div>
-                        <div class="inventory-item"></div>
-                        <div class="inventory-item"></div>
-                        <div class="inventory-item"></div>
-                        <div class="inventory-item"></div>
+                        <div class="inventory-item">
+                            <span>
+                                <img src="img/watering can.png" id="item1" class="shelfitem"> 
+                            </span>
+                        </div>
+                        <div class="inventory-item"> 
+                            <span>
+                                <img src="img/mirror.png" id="item2" class="shelfitem"> 
+                            </span>
+                        </div> 
+                        <div class="inventory-item"> 
+                            <span>
+                                <img src="img/puzzle piece.png" id="item3" class="shelfitem">
+                            </span>
+                        </div>
+                        <div class="inventory-item"> 
+                            <span>
+                                <img src="img/paintbrush.png" id="item4" class="shelfitem">
+                            </span>
+                        </div>
+                        <div class="inventory-item"> 
+                            <span>
+                                <img src="img/friendship bracelet.png" id="item5" class="shelfitem">
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>

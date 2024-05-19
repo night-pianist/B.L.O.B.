@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="puzzle.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+      <div class="white-background">
+        <h1 class="header">help chi solve the puzzle!</h1>
+
+          <article class="dnd-image-drag cf">
+            <div class="puzzleAlign">
+              <div class="container">
+                <h3 class="subtitle">drag the puzzle pieces below</h3>
+                <div class="inner gallery-list cf">
+                  <img draggable="true" src="img/puzzle2.png" class="drag" data-value="2" />
+                  <img draggable="true" src="img/puzzle3.png" class="drag" data-value="3" />
+                  <img draggable="true" src="img/puzzle1.png" class="drag" data-value="1" />
+                  <img draggable="true" src="img/puzzle4.png" class="drag" data-value="4" />
+                </div>
+              </div>
+        
+              <div class="container">
+                <h3 class="subtitle">drop puzzle pieces here</h3>
+                <div class="inner gallery-painting cf">
+                  <div class="drop" data-value="1"></div>
+                  <div class="drop" data-value="2"></div>
+                  <div class="drop" data-value="3"></div>
+                  <div class="drop" data-value="4"></div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <img src="media/chi w puzzle.png" id="chi-puzzle">
+            </div>
+            <div>
+              <img src="media/chi-puzzle-right.png" id="chi-puzzle-right">
+            </div>
+              
+            <div class="message-container">
+              
+            </div>
+       
+            <div class="reset-button-container"> 
+              <button class="reset-button">reset puzzle</button>
+            </div>
+          </article>
+      </div>
+      <script src="puzzle.js"></script>
+    </body>
+</html>

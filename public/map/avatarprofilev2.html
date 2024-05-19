@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles_avatarprofilev2.css">
+        <link href="navbarStyles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
+        <title>Your Avatar!</title>
+    </head>
+    <body>
+
+        <div>
+            <nav class="navbar"> <!-- nav bar -->
+                <div>
+                    <img id="menuIcon" src="media/homeIcon.png">
+                </div>
+
+                <div class="menu">
+                    <span class="menuItem" id="menuMap" style="visibility:hidden">
+                        <img src="media/mapIcon.png">
+                        <a href="#">map</a>
+                    </span>
+                    <span class="menuItem" id="menuAvatar" style="visibility:hidden">
+                        <img src="media/avatarIcon.png">
+                        <a href="#">avatar</a>
+                    </span>
+                    <span class="menuItem" style="visibility:hidden">
+                        <img src="media/homeIcon.png">
+                        <a href="#" id="popupLink">blobs befriended</a>
+                    </span>
+                </div>
+            </nav>
+        </div>
+
+        <header>
+        </header>
+        <main>
+            <div class="quote">
+                <span id="topQuote">
+                    "You are a gift to all who know you,
+                </span>
+                <span id="bottomQuote">
+                    whether or not they realize it."
+                </span>
+            </div>
+        </main>
+
+        <div class="container">
+            <img id="dynamic-Bob" src="img/blob_state_0.png" alt="blob 0" class="left-image">
+            <div class="image-container right-list">
+                <div class="inventory-container right-list">
+                    <img src="img/heart_line.png" id="heart-line" class="shelfimage">
+                    <!-- <h2 class="shelfheader">"You are a gift to all who know you, whether or not they realize it."</h2> -->
+                    <div class="inventory-grid">
+                        <div class="inventory-item" id="inventory-item-1">
+                            <span>
+                                <img src="img/watering can.png" id="item1" class="shelfitem"> 
+                            </span>
+                        </div>
+                        <div class="inventory-item" id="inventory-item-2"> 
+                            <span>
+                                <img src="img/mirror.png" id="item2" class="shelfitem"> 
+                            </span>
+                        </div> 
+                        <div class="inventory-item" id="inventory-item-3"> 
+                            <span>
+                                <img src="img/puzzle piece.png" id="item3" class="shelfitem">
+                            </span>
+                        </div>
+                        <div class="inventory-item" id="inventory-item-4"> 
+                            <span>
+                                <img src="img/paintbrush.png" id="item4" class="shelfitem">
+                            </span>
+                        </div>
+                        <div class="inventory-item" id="inventory-item-5"> 
+                            <span>
+                                <img src="img/friendship bracelet.png" id="item5" class="shelfitem">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+</html>

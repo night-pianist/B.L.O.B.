@@ -41,6 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', function() {
     var blob1Lvl = document.getElementById('blob3');
     blob1Lvl.addEventListener('click', function() {
-        window.location.href = 'blob1.html';
+        window.location.href = 'chi.html';
     });
 });

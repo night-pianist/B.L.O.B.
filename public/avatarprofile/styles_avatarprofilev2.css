@@ -8,7 +8,7 @@ body {
     /* background: #49A7BC; */
     /* background: linear-gradient(to top, #045422, #043d7a, #5374e0, #86a8e7, #91eae4); */
     /* background: linear-gradient(to top, #043d7a, #5374e0, #86a8e7, #49A7BC, #49A7BC); */
-    background: blue;
+    background: #49A7BC;
 }
 
 /* HEADER = HOME LOGO */
@@ -120,7 +120,8 @@ main {
 }
 
 .inventory-item {
-    background-color: #eac180;
+    /* background-color: #eac180; */
+    background-color: #2e1f04;
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -143,18 +144,23 @@ main {
 }
 
 #item4 {
-    height: 40px;
+    height: 25px;
 }
 
 .shelfitem{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
-.inventory-item:hover {
+.shelfitem{
+    height: 80px;
+    width: 90px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* .inventory-item:hover {
     background-color: #2e1f04;
-
-}
+} */
 
 /* Responsive adjustments */
 @media screen and (max-width: 1400px){

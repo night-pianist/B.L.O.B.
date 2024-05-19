@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="navbarStyles.css" rel="stylesheet">
+        <link href="mapStyles.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
     <body>
         <div> <!-- content divider-->
             <div>
@@ -15,7 +17,7 @@
                         <img id="menuIcon" src="media/menuIcon.png">
                     </div>
     
-                    <div class="menu">
+                    <div class="menu" style="color:#567657">
                         <span class="menuItem" id="menuMap" style="visibility:hidden">
                             <img src="media/homeIcon.png">
                             <a href="#">map</a>
@@ -38,6 +40,26 @@
                         </span>
                     </div>
                 </nav>
+            </div>
+
+            <div>
+                <img id="clouds" src="media/clouds.png">
+            </div>
+            <div>
+                <img id="map2Path" src="media/map2Path.png">
+            </div>
+
+            <div>
+                <img class="blobs" id="blob4" src="media/blob4.png">
+            </div>
+            <div>
+                <img class="blobs" id="blob5" src="media/blob5.png">
+            </div>
+
+            <div>
+                <button id="moveMapLeft">
+                    click here
+                </button>
             </div>
         </div>
         <script src="index.js"></script>

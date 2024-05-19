@@ -1,0 +1,80 @@
+body {
+    background-image: url("media/mapTemplate.png");
+}
+
+#clouds {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+#mapPath {
+    height: 250px;
+    width: 1200px;
+    position: absolute; 
+    top: 400px;
+    left: 250px;
+}
+
+#map2Path {
+    height: 250px;
+    width: 770px;
+    position: absolute; 
+    top: 460px;
+    left: 0px;
+}
+
+.blobs {
+    height: 250px;
+    width: 265;
+}
+
+.blobs:hover {
+    transform: scale(1.10); 
+    cursor: pointer;
+}
+
+#blob1 {
+    position: absolute;
+    top: 420px;
+    left: 10px;
+}
+
+#blob2 {
+    position: absolute;
+    top: 220px;
+    left: 435px;
+}
+
+#blob3 {
+    position: absolute;
+    top: 320px;
+    left: 935px;
+}
+
+#blob4 {
+    position: absolute;
+    top: 480px;
+    left: 255px;
+}
+
+#blob5 {
+    position: absolute;
+    top: 275px;
+    left: 775px;
+}
+
+#moveMapRight {
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    left: 95%;
+}
+
+#moveMapLeft {
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}

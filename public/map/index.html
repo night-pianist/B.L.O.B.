@@ -3,7 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/styles.css" rel="stylesheet">
+        <link href="mapStyles.css" rel="stylesheet">
+        <link href="navbarStyles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&family=Sniglet:wght@400;800&family=Varela+Round&display=swap" rel="stylesheet">
     </head>
     <body>
         <div> <!-- content divider-->
@@ -26,7 +30,7 @@
                             <img src="media/homeIcon.png">
                             <a href="#" id="popupLink">blobs befriended</a>
                         </span>
-                        <span class="menuItem" style="visibility:hidden">
+                        <span class="menuItem" id="menuAbout" style="visibility:hidden">
                             <img src="media/homeIcon.png">
                             <a href="#">about</a>
                         </span>
@@ -38,6 +42,9 @@
                 </nav>
             </div>
 
+            <div>
+                <img id="clouds" src="media/clouds.png">
+            </div>
             <div>
                 <img id="mapPath" src="media/mapPath.png">
             </div>
@@ -51,7 +58,13 @@
             <div>
                 <img class="blobs" id="blob3" src="media/blob3.png">
             </div>
+
+            <div>
+                <button id="moveMapRight">
+                    click here
+                </button>
+            </div>
         </div>
-        <script src="map.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

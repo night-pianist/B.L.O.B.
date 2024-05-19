@@ -77,7 +77,7 @@ body, html {
     padding: 10px 20px;
     margin-right: 10px;
     font-size: 1vw;
-    background-color: #4CAF50;
+    background-color: #F4A838;
     color: white;
     border: none;
     border-radius: 5px;
@@ -86,7 +86,7 @@ body, html {
   }
 
   .option-button:hover {
-    background-color: #45a049;
+    background-color: #D2912F;
   }
 
   .option-button-wrong {
@@ -95,7 +95,7 @@ body, html {
     padding: 10px 20px;
     margin-right: 10px;
     font-size: 1vw;
-    background-color: #4CAF50;
+    background-color: #F4A838;
     color: white;
     border: none;
     border-radius: 5px;
@@ -104,7 +104,7 @@ body, html {
   }
 
   .option-button-wrong:hover {
-    background-color: #45a049;
+    background-color: #D2912F;
   }
 
   .option-button-wrong:active {

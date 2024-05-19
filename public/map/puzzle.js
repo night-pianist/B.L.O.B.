@@ -171,6 +171,7 @@ jQuery(document).ready(function($) {
       $('.message-container').append('<p>chi has given you a treasure. go to your avatar to see the gift!</p>');
       $('.message-container').append('<button id="returnToMapBtn">return to map</button>');
       $('#returnToMapBtn').on('click', function() {
+        localStorage.setItem('blob3IsHappy', 'true');
         window.location.href = 'index.html'; // Replace with your actual file path
       });
     } else {

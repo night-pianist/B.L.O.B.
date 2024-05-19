@@ -52,3 +52,13 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'meet-chi.html';
     });
 });
+
+// change blob3 to happy blob3 :D
+document.addEventListener('DOMContentLoaded', function() {
+    var changeBlob3 = document.getElementById('blob3');
+  
+    // Check if the flag is set in localStorage
+    if (localStorage.getItem('blob3IsHappy') == 'true') {
+      changeBlob3.src = 'media/blob3-happy.png';
+    }
+  });

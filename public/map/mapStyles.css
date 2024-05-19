@@ -1,5 +1,7 @@
 body {
     background-image: url("media/mapTemplate.png");
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #clouds {
@@ -65,11 +67,23 @@ body {
     left: 775px;
 }
 
-#moveMapRight {
+.arrows img {
     padding: 10px;
+    margin: 10px;
+    height: 60px;
+    width: 40px;
+}
+
+#rightBtn {
     position: absolute;
-    top: 45%;
-    left: 95%;
+    top: 38%;
+    left: 93%;
+}
+
+#leftBtn {
+    position: absolute;
+    top: 38%;
+    left: 1%;
 }
 
 #moveMapLeft {

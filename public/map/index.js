@@ -21,17 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// go to about
-document.addEventListener('DOMContentLoaded', function() {
-    var map = document.getElementById('menuAbout');
-    map.addEventListener('click', function() {
-        window.location.href = 'about.html';
-    });
-});
-
 // go to right of map
 document.addEventListener("DOMContentLoaded", function() {
-    var button = document.getElementById('moveMapRight');
+    var button = document.getElementById('rightBtn');
     button.addEventListener('click', function() {
         window.location.href = 'map2.html';
     });
@@ -39,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // go to left of map
 document.addEventListener("DOMContentLoaded", function() {
-    var button = document.getElementById('moveMapLeft');
+    var button = document.getElementById('leftBtn');
     button.addEventListener('click', function() {
         window.location.href = 'index.html';
     });

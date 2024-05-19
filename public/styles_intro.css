@@ -1,0 +1,96 @@
+
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+    background: #49A7BC;
+    overflow: hidden; /* Prevents scrolling */
+  }
+  
+  .story-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 8vw;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Bob {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 30vw; /* Maximum width for the character image */
+  }
+  
+  .Bob img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-box {
+    width: 80%;
+    max-width: 600px; /* Maximum width for the text box */
+    background-color: #f0f0f0;
+    padding: 5%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 2vw;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .story-page {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .character-image, .text-box {
+        width: 100%; /* Full width for smaller screens */
+        max-width: none; /* No maximum width for smaller screens */
+    }
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 4vw; /* Larger font size for smaller screens */
+    }
+  
+    .text-box {
+        font-size: 3vw; /* Larger font size for smaller screens */
+    }
+  
+    .character-image {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .next-button {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+    }
+  }

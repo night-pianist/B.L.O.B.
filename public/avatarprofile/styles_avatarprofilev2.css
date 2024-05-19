@@ -2,10 +2,12 @@
 /* OVERALL BODY */
 body {
     /* font-family: 'Courier New', Courier, monospace; */
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     padding: 0;
-    background: #49A7BC;
+    /* background: #49A7BC; */
+    /* background: linear-gradient(to top, #045422, #043d7a, #5374e0, #86a8e7, #91eae4); */
+    background: linear-gradient(to top, #043d7a, #5374e0, #86a8e7, #49A7BC, #49A7BC);
 }
 
 /* HEADER = HOME LOGO */
@@ -40,6 +42,9 @@ main {
     margin: 0px;
 }
 
+.quote {
+    color: white;
+}
 .container {
     display: flex;
     align-items: flex-start;
@@ -78,12 +83,17 @@ main {
 
 .shelfheader {
     font-family: fantasy;
+    color: aliceblue;
     margin-top: 0px;
+}
+
+.shelfimage {
+    max-width: 100%
 }
 
 .inventory-container {
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     background-color: rgb(128, 70, 8);
     border-radius: 20px;
     border: 8px solid rgb(77, 42, 5);
@@ -113,8 +123,14 @@ main {
     min-height: 20px;
 }
 
+.shelfitem{
+    max-height: 50%;
+    max-width: 50%;
+}
+
 .inventory-item:hover {
     background-color: #2e1f04;
+
 }
 
 

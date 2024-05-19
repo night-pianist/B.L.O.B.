@@ -21,6 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// go to avatar
+document.addEventListener('DOMContentLoaded', function() {
+    var map = document.getElementById('menuAvatar');
+    map.addEventListener('click', function() {
+        window.location.href = 'avatarprofilev2.html';
+    });
+});
+
 // go to right of map
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById('rightBtn');
@@ -37,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// go to blob1
+// go to meet-chi
 document.addEventListener('DOMContentLoaded', function() {
     var blob1Lvl = document.getElementById('blob3');
     blob1Lvl.addEventListener('click', function() {

@@ -57,3 +57,8 @@
     padding:0px;
     margin:0px;
 }
+
+#menuIcon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

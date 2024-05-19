@@ -80,6 +80,11 @@ body {
     left: 93%;
 }
 
+#rightBtn:hover, #leftBtn:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
 #leftBtn {
     position: absolute;
     top: 38%;

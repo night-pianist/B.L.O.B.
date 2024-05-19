@@ -5,10 +5,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
     padding: 0px;
-    /* background: #49A7BC; */
-    /* background: linear-gradient(to top, #045422, #043d7a, #5374e0, #86a8e7, #91eae4); */
-    /* background: linear-gradient(to top, #043d7a, #5374e0, #86a8e7, #49A7BC, #49A7BC); */
-    background: #49A7BC;
+    background: url("img/spicy avatar.jpeg");
+    background-size: cover;
 }
 
 /* HEADER = HOME LOGO */
@@ -110,7 +108,8 @@ main {
     width: 100%;
     max-width: 100%;
     position: absolute;
-    left: 800px;
+    top: 0px;
+    left: 850px;
 }
 
 .inventory-grid {
@@ -140,11 +139,17 @@ main {
 }
 
 #item3 {
-    height: 100px
+    height: 90px;
+    width: 80px;
 }
 
 #item4 {
     height: 25px;
+}
+
+#item5 {
+    height: 70px;
+    width: 70px;
 }
 
 .shelfitem{

@@ -61,4 +61,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (localStorage.getItem('blob3IsHappy') == 'true') {
       changeBlob3.src = 'media/blob3-happy.png';
     }
-  });
+});
+
+// change Bob to have a green heart
+document.addEventListener('DOMContentLoaded', function() {
+    var changeBob = document.getElementById('dynamic-Bob');
+    var changeTreasure = document.getElementById('item3');
+    var changeHeartLine = document.getElementById('heart-line');
+  
+    // Check if the flag is set in localStorage
+    if (localStorage.getItem('blob3IsHappy') == 'true') {
+        changeBob.src = 'img/blob_state_green.png';
+        changeTreasure.src = 'media/puzzle-piece-happy.png';
+        changeHeartLine.src = 'img/heart_line_green.png';
+    }
+});
+
+

@@ -1,0 +1,149 @@
+body{
+  background-color: #77B47A;
+}
+
+.header{
+  text-align: center;
+  font-size: 80px;
+  font-family: "Varela Round";
+  margin-bottom: 5px;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 690px;
+  margin: 0px auto;
+}
+
+.puzzleAlign{
+  display: flex;
+  justify-content: center;
+}
+
+/*drag and drop styles*/
+.dnd-image-drag .container {
+  float: left;
+  margin: 0 10px 20px 10px;
+}
+
+.dnd-image-drag .gallery-list {
+  width: 320px;
+  min-height: 317px;
+  background: #eee;
+  border: solid 1px #ccc;
+  padding: 5px 0 5px 5px;
+}
+
+.dnd-image-drag .gallery-list .drag {
+  width: 150px;
+  display: inline-block;
+  height: 150px;
+  border: solid 1px #ccc;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  border: solid 1px transparent;
+}
+
+.dnd-image-drag .gallery-list .drag.drag-active {
+  border: solid 1px #2c3e50;
+}
+
+.dnd-image-drag .gallery-painting {
+  width: 320px;
+  background: #eee;
+  background-position: center center;
+  background-size: cover;
+  border: solid 1px #ccc;
+  padding: 5px 0 5px 5px;
+}
+
+.dnd-image-drag .gallery-painting .drop {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  background: rgba(50, 50, 50, 0.7);
+  border: solid 1px transparent;
+  overflow: hidden;
+}
+
+.dnd-image-drag .gallery-painting .drop.drop-active {
+  border: solid 1px #f1c40f;
+}
+
+.dnd-image-drag .gallery-painting .drop.correct {
+  border: solid 1px #32ce74;
+}
+
+.dnd-image-drag .gallery-painting .drop.incorrect {
+  border: solid 1px #c0392b;
+}
+
+.dnd-image-drag .gallery-painting .drop img {
+  max-width: 100%;
+  height: auto;
+}
+
+.reset-button {
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 40px;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+  min-width: 100px;
+  clear: both;
+  font-family: "Varela Round";
+  font-size: 20px;
+}
+
+.message-container {
+  text-align: center;
+  font-family: "Varela Round";
+  font-size: 20px;
+  clear: both;
+}
+
+.message-container button {
+  margin-bottom: 25px;
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-family: "Varela Round";
+  font-size: 20px;
+}
+
+.ie-message {
+  display: none;
+  padding: 15px;
+  background: #e74c3c;
+  color: #fff;
+  border: dashed 2px #c0392b;
+  margin-bottom: 15px;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 24px;
+  font-family: "Varela Round"
+}

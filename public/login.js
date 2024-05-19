@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const registerButton = document.querySelector('.registerButton');
     
     loginButton.addEventListener('click', function() {
-        const username = document.querySelector('.username').value; // Get the username from input
-        const password = document.querySelector('.password').value; // Get the password from input
+        const loginusername = document.querySelector('.loginusername').value; // Get the username from input
+        const loginpassword = document.querySelector('.loginpassword').value; // Get the password from input
         
         // Check if fields are not empty
-        if (username && password) {
-            loginUser({ username, password });
+        if (loginusername && loginpassword) {
+            loginUser({ loginusername, loginpassword });
         } else {
             alert('Please enter both username and password');
         }
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (username && password && email) {
             registerUser({ username, email, password});
         } else {
-            alert('Please enter both username, password, and email');
+            alert('Please enter your username, password, and email');
         }
     });
 
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log('Success:', data);
             if (data.message === "Login successful!") {
-                alert('Login Successful'); // Handle your success further
+                window.location.href = 'intro.html';
             } else {
                 alert('Invalid credentials!'); // Handle the error
             }

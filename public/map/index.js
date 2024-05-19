@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // go to blob1
 document.addEventListener('DOMContentLoaded', function() {
-    var blob1Lvl = document.getElementById('blob1');
+    var blob1Lvl = document.getElementById('blob3');
     blob1Lvl.addEventListener('click', function() {
         window.location.href = 'blob1.html';
     });

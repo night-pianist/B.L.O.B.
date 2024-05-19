@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animated Storybook</title>
+    <link rel="stylesheet" href="styles_test.css">
+</head>
+<body>
+    <div class="storybook">
+        <input type="radio" name="page" id="page1" checked>
+        <input type="radio" name="page" id="page2">
+        <input type="radio" name="page" id="page3">
+
+        <div class="pages">
+            <div class="page" id="content1">
+                <h1>Page 1</h1>
+                <p>This is the first page of the story.</p>
+                <label for="page2" class="next-button">Next</label>
+            </div>
+            <div class="page" id="content2">
+                <h1>Page 2</h1>
+                <p>This is the second page of the story.</p>
+                <label for="page3" class="next-button">Next</label>
+            </div>
+            <div class="page" id="content3">
+                <h1>Page 3</h1>
+                <p>This is the third page of the story.</p>
+                <label for="page1" class="next-button">Restart</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

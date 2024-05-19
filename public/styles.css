@@ -1,0 +1,126 @@
+body{
+  background-color: #B0D0FF;
+  background-image: url('landingpage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.containerAlign{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #F2CC6C;
+  border-radius: 15px;
+  width: 330px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.login {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Monofett'
+}
+
+.register {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Monofett'
+}
+
+.inputAlign{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer{
+  margin-bottom: 20px;
+}
+
+.loginButton{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 190px;
+  background-color: white;
+}
+
+
+.registerButton{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 190px;
+  background-color: white;
+}
+
+.username{ /* for register username */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.loginusername{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.password { /* for register password */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.loginpassword{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 90px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+}
+

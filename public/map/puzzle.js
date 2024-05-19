@@ -167,8 +167,8 @@ jQuery(document).ready(function($) {
     var correctItems = drop_items.filter('.correct');
     if (correctItems.length == drop_items.length) {
       $('.message-container').empty();
-      $('.message-container').append('<h3>you solved the puzzle!</h3>');
-      $('.message-container').append('<p>chi has given you a treasure. go to your avatar to see the gift!</p>');
+      $('.message-container').append('<span id="solved-msg"><b>you solved the puzzle!</b></span>');
+      $('.message-container').append('<span id="solved-p">chi has given you a treasure. go to your avatar to see the gift!</span>');
       $('.message-container').append('<button id="returnToMapBtn">return to map</button>');
       $('#returnToMapBtn').on('click', function() {
         localStorage.setItem('blob3IsHappy', 'true');

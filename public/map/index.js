@@ -29,6 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// go to blobs befriended
+document.addEventListener('DOMContentLoaded', function() {
+    var map = document.getElementById('menuBlobs');
+    map.addEventListener('click', function() {
+        console.log("HERHIOWERJ");
+        window.location.href = 'blobs.html';
+    });
+});
+
 // go to right of map
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById('rightBtn');
@@ -68,12 +77,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var changeBob = document.getElementById('dynamic-Bob');
     var changeTreasure = document.getElementById('item3');
     var changeHeartLine = document.getElementById('heart-line');
+    var changeInventoryShelf = document.getElementById('inventory-item-3');
   
     // Check if the flag is set in localStorage
     if (localStorage.getItem('blob3IsHappy') == 'true') {
         changeBob.src = 'img/blob_state_green.png';
         changeTreasure.src = 'media/puzzle-piece-happy.png';
         changeHeartLine.src = 'img/heart_line_green.png';
+        changeInventoryShelf.style.backgroundColor = "#592e01";
     }
 });
 

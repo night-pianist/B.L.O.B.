@@ -140,7 +140,7 @@ input[type="radio"] {
 }
 
 .page label:hover {
-    background-color: #49A7BC;
+    background-color: #20606e;
 }
 
 #page1:checked ~ .pages #content1,

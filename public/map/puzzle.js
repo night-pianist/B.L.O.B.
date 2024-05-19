@@ -169,7 +169,10 @@ jQuery(document).ready(function($) {
       $('.message-container').empty();
       $('.message-container').append('<h3>you solved the puzzle!</h3>');
       $('.message-container').append('<p>chi has given you a treasure. go to your avatar to see the gift!</p>');
-      $('.message-container').append('<button>return to map</button>');
+      $('.message-container').append('<button id="returnToMapBtn">return to map</button>');
+      $('#returnToMapBtn').on('click', function() {
+        window.location.href = 'index.html'; // Replace with your actual file path
+      });
     } else {
       $('.message-container').empty();
     }
@@ -188,5 +191,4 @@ jQuery(document).ready(function($) {
   if (userAgent.indexOf('MSIE') != -1) {
     $('.ie-message').show();
   }
-
 });

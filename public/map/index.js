@@ -65,26 +65,37 @@ document.addEventListener('DOMContentLoaded', function() {
 // change blob3 to happy blob3 :D
 document.addEventListener('DOMContentLoaded', function() {
     var changeBlob3 = document.getElementById('blob3');
-  
+
     // Check if the flag is set in localStorage
     if (localStorage.getItem('blob3IsHappy') == 'true') {
       changeBlob3.src = 'media/blob3-happy.png';
+      addFriend.src = 'img/heart_line_green.png';
     }
 });
 
-// change Bob to have a green heart
+// change Bob to have a green heart in avatar pfp
 document.addEventListener('DOMContentLoaded', function() {
     var changeBob = document.getElementById('dynamic-Bob');
     var changeTreasure = document.getElementById('item3');
     var changeHeartLine = document.getElementById('heart-line');
     var changeInventoryShelf = document.getElementById('inventory-item-3');
   
-    // Check if the flag is set in localStorage
     if (localStorage.getItem('blob3IsHappy') == 'true') {
         changeBob.src = 'img/blob_state_green.png';
         changeTreasure.src = 'media/puzzle-piece-happy.png';
         changeHeartLine.src = 'img/heart_line_green.png';
         changeInventoryShelf.style.backgroundColor = "#592e01";
+    }
+});
+
+// update Bob in befriends
+document.addEventListener('DOMContentLoaded', function() {
+    var changeBob = document.getElementById('BOB');
+    var addFriend = document.getElementById('GREENBLOB');
+  
+    if (localStorage.getItem('blob3IsHappy') == 'true') {
+        changeBob.src = 'img/blob_state_green.png';
+        addFriend.style.visibility = "visible";
     }
 });
 

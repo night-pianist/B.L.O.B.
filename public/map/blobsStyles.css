@@ -1,0 +1,24 @@
+body {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url("media/befriends.png");
+    background-size: cover;
+}
+
+#BOB {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 400px;
+    top: 170px;
+}
+
+#GREENBLOB {
+    height: 420px;
+    width: 290px;
+    position: absolute;
+    left: 800px;
+    top: 220px;
+}

@@ -1,0 +1,192 @@
+/* styles.css */
+/* OVERALL BODY */
+body {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* background: #49A7BC; */
+    /* background: linear-gradient(to top, #045422, #043d7a, #5374e0, #86a8e7, #91eae4); */
+    /* background: linear-gradient(to top, #043d7a, #5374e0, #86a8e7, #49A7BC, #49A7BC); */
+    background: #49A7BC;
+}
+
+/* HEADER = HOME LOGO */
+header {
+    background-color: #49A7BC;
+    /* padding: 10px 20px; */
+    text-align: left;
+    /* border-bottom: 1px solid #49A7BC; */
+}
+
+/* TITLE OF THE PAGE: BOB THE BLOB */
+main {
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.titlemsg {
+    /* text-align: center; */
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    font-size: 500%;
+    font-family: "Varela Round";
+}
+
+.quote {
+    color: white;
+    font-size: 175%;
+    display: block;
+    font-family: "Varela Round";
+}
+
+#topQuote {
+    position: absolute;
+    top: 625px;
+    left: 170px;
+}
+
+#bottomQuote {
+    position: absolute;
+    top: 665px;
+    left: 205px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* BLOB + GIFT SHELF SPLIT */
+/* OVERLAY GIFTS OVER SHELF */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 30%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.left-image {
+    max-width: 30%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%; /* Space between image and list */
+    align-items: center;
+    position: absolute;
+    top: 125px;
+    left: 65px;
+}
+
+.right-list {
+    max-width: 30%;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.shelfheader {
+    font-family: fantasy;
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.shelfimage {
+    max-width: 100%
+}
+
+.inventory-container {
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(128, 70, 8);
+    border-radius: 20px;
+    border: 8px solid rgb(77, 42, 5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    left: 800px;
+}
+
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 10px;
+}
+
+.inventory-item {
+    /* background-color: #eac180; */
+    background-color: #2e1f04;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 4px solid rgb(77, 42, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#item2 {
+    height: 90px;
+    width: 90px;
+}
+
+#item3 {
+    height: 100px
+}
+
+#item4 {
+    height: 25px;
+}
+
+.shelfitem{
+    height: 80px;
+    width: 80px;
+}
+
+.shelfitem{
+    height: 80px;
+    width: 90px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* .inventory-item:hover {
+    background-color: #2e1f04;
+} */
+
+/* Responsive adjustments */
+@media screen and (max-width: 1400px){
+    .text-element {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        padding: 3vw 15vw;
+    }
+  }
+  
+  @media screen and (max-width: 960px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: .2vw 4.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: 1vw 10.4vw;
+    }
+  }
+  
+  @media screen and (max-width: 560px){
+    .text-element {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+        padding: 1vw 10vw;
+    }
+  }

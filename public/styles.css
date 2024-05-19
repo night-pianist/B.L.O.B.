@@ -1,0 +1,200 @@
+body{
+  background-color: #B0D0FF;
+  background-image: url('assets/landingpage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.containerAlign{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #F2CC6C;
+  border-radius: 15px;
+  width: 330px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.login {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Monofett'
+}
+
+.register {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Monofett'
+}
+
+.inputAlign{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer{
+  margin-bottom: 20px;
+}
+
+.loginButton{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 190px;
+  background-color: white;
+}
+
+
+.registerButton{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 190px;
+  background-color: white;
+}
+
+.username{ /* for register username */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.loginusername{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.password { /* for register password */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.loginpassword{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 90px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 90px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* FADE IN + MOVE TITLE */
+.curved-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  font-weight: bold;
+  font-size: 100px;
+  padding: 15px;
+  margin: 0px;
+  font-family: 'DynaPuff';
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.letter {
+  display: inline-block;
+  padding: 0 1px;
+  opacity: 0;
+  animation: fadeIn 0.4s forwards;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.letter:nth-child(1) { animation-delay: 0.1s; }
+.letter:nth-child(2) { animation-delay: 0.2s; }
+.letter:nth-child(3) { animation-delay: 0.3s; }
+.letter:nth-child(4) { animation-delay: 0.4s; }
+.letter:nth-child(5) { animation-delay: 0.5s; }
+.letter:nth-child(6) { animation-delay: 0.6s; }
+.letter:nth-child(8) { animation-delay: 0.7s; }
+.letter:nth-child(9) { animation-delay: 0.8s; }
+.letter:nth-child(10) { animation-delay: 0.9s; }
+.letter:nth-child(11) { animation-delay: 1.0s; }
+.letter:nth-child(12) { animation-delay: 1.1s; }
+
+/* WAVE EFFECT */
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(-35px); /* move up by 20px */
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(25px); /* move down by 20px */
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.letter { animation: moveUp 1.5s forwards; }
+.letter:nth-child(1) { animation-delay: 0.1s; }
+.letter:nth-child(2) { animation-delay: 0.2s; }
+.letter:nth-child(3) { animation-delay: 0.3s; }
+.letter:nth-child(4) { animation-delay: 0.4s; }
+.letter:nth-child(5) { animation-delay: 0.5s; }
+.letter:nth-child(6) { animation-delay: 0.6s; }
+.letter:nth-child(8) { animation-delay: 0.7s; }
+.letter:nth-child(9) { animation-delay: 0.8s; }
+.letter:nth-child(10) { animation-delay: 0.9s; }
+.letter:nth-child(11) { animation-delay: 1.0s; }
+.letter:nth-child(12) { animation-delay: 1.1s; }
+
+

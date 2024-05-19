@@ -11,7 +11,8 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-          <h1 class="header">help chi solve the puzzle!</h1>
+      <div class="white-background">
+        <h1 class="header">help chi solve the puzzle!</h1>
 
           <article class="dnd-image-drag cf">
             <div class="puzzleAlign">
@@ -35,12 +36,23 @@
                 </div>
               </div>
             </div>
-              
-            <div class="message-container"></div>
-       
-            <button class="reset-button">reset puzzle</button>
-          </article>
 
+            <div>
+              <img src="media/chi w puzzle.png" id="chi-puzzle">
+            </div>
+            <div>
+              <img src="media/chi-puzzle-right.png" id="chi-puzzle-right">
+            </div>
+              
+            <div class="message-container">
+              
+            </div>
+       
+            <div class="reset-button-container"> 
+              <button class="reset-button">reset puzzle</button>
+            </div>
+          </article>
+      </div>
       <script src="puzzle.js"></script>
     </body>
 </html>

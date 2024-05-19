@@ -1,5 +1,8 @@
 body{
   background-color: #77B47A;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
 }
 
 .header{
@@ -145,5 +148,70 @@ body{
 .subtitle{
   text-align: center;
   font-size: 24px;
-  font-family: "Varela Round"
+  font-family: "Varela Round";
+  background: #77B47A;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.white-background {
+  position: relative;
+  width: 90%;
+  height: 95%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0px auto;
+}
+
+.reset-button-container {
+  text-align: center;
+}
+
+.reset-button {
+  display: inline-block;
+  background: #77B47A;
+  margin: 0px;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+#chi-puzzle {
+  margin: 0px;
+  padding: 0px;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 415px;
+  right: 950px;
+}
+
+#chi-puzzle-right {
+  margin: 0px;
+  padding: 0px;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: 415px;
+  left: 950px;
+}
+
+#returnToMapBtn {
+  background: #77B47A;
+  padding: 7px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#solved-msg {
+  font-size: 1.75em;
+  padding: 20px;
+  margin: 0px;
+}
+
+#solved-p {
+  display: block;
+  padding: 0px;
+  margin: 10px;
 }
